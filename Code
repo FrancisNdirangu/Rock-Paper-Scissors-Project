@@ -1,0 +1,19 @@
+#This game of rps will ask the user to input their move in the form of a string. The game will then choose its move randomly.
+#The computers move will then be printed onto the screen
+#The code will then make the calculation to see if the user has won or lost. This can be comparative and using if else statements.
+#It will then tell the user if they hace won or lost.
+
+#Step1: Asking the user to unput their choice. Print the users choice.
+
+print('The choices are [R]ock, [P]aper and [S]cissors chose an option by typing one of the three capital letters')
+userinput = input("What is your choice" )
+
+if userinput != R or userinput != P or userinput != S
+print("The input is not among the available choices")
+
+
+#Step2:Have the opponent pick from RPS
+
+#Step3:Print the choice of the opponent
+
+#Step4:If else statement to see who won. as well as a printed statement saying who won
